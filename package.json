@@ -1,0 +1,29 @@
+{
+  "name": "@ghasemkiani/litecoin",
+  "version": "2.0.0",
+  "description": "Utility for working with the Litecoin blockchain",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghasemkiani/litecoin.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "litecoin"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ghasemkiani/litecoin/issues"
+  },
+  "homepage": "https://gitlab.com/ghasemkiani/litecoin#readme",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base",
+    "bitcore-lib-ltc": "^8.25.14"
+  }
+}
